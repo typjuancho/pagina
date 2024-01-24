@@ -1,0 +1,22 @@
+@media only screen and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+
+    p {
+       font-size: 1em; 
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        position: relative;
+        background-color: #099b18;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

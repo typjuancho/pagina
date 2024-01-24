@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las haciendas</title>
+    <!--CSS general-->
+        <link rel="stylesheet" href="general-styles.css">
+    <!--CSS responsive-->
+        <link rel="stylesheet" href="responsive.css">
+    <!--CSS form -->
+    <link rel="stylesheet" href="form.css">
+    <!-- Google fonts, roboto-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <!--Font awesome, icons-->
+        <script src="https://kit.fontawesome.com/f1daa605bf.js" crossorigin="anonymous"></script>
+        <!--Daisy UI-->
+        
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="title">
+                <i class="fa-solid fa-house"></i>
+                <h1>LAS HACIENDAS</h1>
+            </div>
+            
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <div class="redes">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+            
+        </nav>
+    </header>
+    
+    <main>
+        <!-- <section class="eslogan">
+            <div>
+                <p>Un Lugar mágico donde la aventura y la naturaleza se integran para crear una experiencia única.
+                </p>
+                <button>CONTACTO</button>
+            </div>
+        </section> -->
+
+        <h2>LOTES</h2>
+        <section class="lotes">
+            <div class="lote">
+                <img src="https://i.pinimg.com/564x/d6/1e/69/d61e696b32237baf3bd82fd600f38dce.jpg" alt="cabaña">
+
+                <div class="lote-info">
+                    <i class="fa-solid fa-location-dot"></i><h3>Cartagena</h3>
+                </div>
+                <p>Lorem, ipsum.</p>
+            </div>
+
+            <div class="lote">
+                <img src="https://i.pinimg.com/564x/d6/1e/69/d61e696b32237baf3bd82fd600f38dce.jpg" alt="cabaña">
+
+                <div class="lote-info">
+                    <i class="fa-solid fa-location-dot"></i><h3>Cartagena</h3>
+                </div>
+                <p>Lorem, ipsum.</p>
+            </div>
+
+            <div class="lote">
+                <img src="https://i.pinimg.com/564x/d6/1e/69/d61e696b32237baf3bd82fd600f38dce.jpg" alt="cabaña">
+
+                <div class="lote-info">
+                    <i class="fa-solid fa-location-dot"></i><h3>Cartagena</h3>
+                </div>
+                <p>Lorem, ipsum.</p>
+            </div>
+
+            <div class="lote">
+                <img src="https://i.pinimg.com/564x/d6/1e/69/d61e696b32237baf3bd82fd600f38dce.jpg" alt="cabaña">
+
+                <div class="lote-info">
+                    <i class="fa-solid fa-location-dot"></i><h3>Cartagena</h3>
+                </div>
+                <p>Lorem, ipsum.</p>
+            </div>
+         </section>
+         <button style="padding: 20px 25px; margin-bottom: 20px;">ver más</button>
+    </main>
+
+    <div class="form-container">
+        <div class="info">
+            <h1>LAS HACIENDAS</h1>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <p>Correo@gmail.com</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <p>(+57) 301 2219603</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Cartagena</p>
+            </div>
+        </div>
+
+        <form action="/submit" method="post">
+            <h2>CONTACTANOS</h2>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required placeholder="Nombre">
+        
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" required placeholder="Correo">
+        
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Escribe tu Mensaje"></textarea>
+        
+            <button type="submit">Enviar</button>
+          </form>
+    </div>
+    
+
+    <footer>
+        <p> GeoManagement Agency - 2024 </p>
+    </footer>
+</body>
+</html>
